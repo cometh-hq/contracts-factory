@@ -1,0 +1,17 @@
+{
+  "name": "@cometh/contracts-factory",
+  "version": "1.0.0",
+  "author": "Kelvyne",
+  "description": "Package that holds Cometh contract factory deployment files",
+  "files": [
+    "artifacts/*.json",
+    "lib/*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cometh-game/contracts-factory.git"
+  },
+  "dependencies": {
+    "ethers": "^5.7.0"
+  }
+}

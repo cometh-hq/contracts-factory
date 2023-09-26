@@ -14,13 +14,7 @@ async function main() {
 
   const signedTx = await signTx(signer, tx);
 
-  console.log(signedTx);
-
-  console.log();
-  console.log();
-  console.log();
-
-  console.log(getDeterministicDeployment(chainId));
+  console.log(JSON.stringify({ signedTx }));
 }
 
 main()

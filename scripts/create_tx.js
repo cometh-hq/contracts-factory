@@ -2,6 +2,8 @@ const { ethers } = require('ethers');
 const { getDeterministicDeployment } = require('../lib');
 const { createTx, signTx } = require('../lib/tx');
 
+require('dotenv').config()
+
 async function main() {
   const signer = new ethers.Wallet(process.env.PRIVATE_KEY);
 

@@ -6,7 +6,7 @@ const { createTx, signTx } = require('../lib/tx');
 
 const PRODUCTION_SIGNER = '0x1d57717e19983c9211E586978860edb899Dc43FD';
 const DEVELOPER_SIGNER = '0x78788bA2Eb83fA323F566B61ACC5Df8d86295A01';
-const STAGING_SIGNER = '0x02Ff737406Cd37F8591c47D01144b3769deD4B67';
+const STAGING_SIGNER = '0x5c65eBc028B1216EF3e6025C9977fEeD70f2d691';
 
 async function checkDir(dir, signer) {
   const files = fs.readdirSync(dir);

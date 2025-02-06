@@ -1,6 +1,6 @@
 {
   "name": "@cometh/contracts-factory",
-  "version": "1.2.15",
+  "version": "1.2.16",
   "author": "Kelvyne",
   "description": "Package that holds Cometh contract factory deployment files",
   "files": [
